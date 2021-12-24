@@ -1,20 +1,23 @@
 import { createGlobalStyle, css } from "styled-components";
+import { theme } from "./theme";
 
 export const GlobalStyles = createGlobalStyle`
-  *{
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-  body{
-    background-color: yellow;
-  }
-
-  h1{
-    ${({ theme }) => css`
-      background-color: ${theme.default.mainBG};
-      color: ${theme.default.mainColor};
-    `};
+  html {
+    /*
+      usado para representar px em rem
+      Ex.: 10px = 1.0rem
+           15px = 1.5rem
+            5px = 0.5rem
+    */
+    font-size: 62.5%;
+    font-family: ${ theme.fonts.families.montserrat };
   }
 `;

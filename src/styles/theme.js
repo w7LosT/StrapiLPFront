@@ -1,6 +1,26 @@
 export const theme = {
   default: {
-    mainBG: "purple",
-    mainColor: "pink",
+    mainBG: "#cecece",
+    mainColor: "#0a1128",
+    secondaryColor: '#dc143c',
+    lightBG: '#fcfcfc',
+    darkBG: '#0a1128',
+    colorWhite: '#fff',
   },
+  fonts: {
+    families: {
+      montserrat: "'Montserrat', sans-serif",
+    },
+    sizes: {
+      sm: "12px",
+      md: "16px",
+      lg: "24px",
+    },
+    cases:{
+      normal: "none",
+      uppercase: "uppercase",
+      lowercase: "lowercase",
+      capitalize: "capitalize",
+    },
+  }
 };

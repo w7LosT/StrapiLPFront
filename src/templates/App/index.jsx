@@ -1,10 +1,13 @@
 import * as Styled from './styles';
+import { Heading } from '../../components/Heading';
 
 function Home() {
   return (
     <div className="App">
-      <Styled.Wrapper color="green">
-        <h1>OI!</h1>
+      <Styled.Wrapper>
+        <Heading>
+          Oi
+        </Heading>
       </Styled.Wrapper>
     </div>
   );
