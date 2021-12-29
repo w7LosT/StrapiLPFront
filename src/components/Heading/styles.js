@@ -9,6 +9,7 @@ const titleSize = {
   `,
   lg: (theme) => css`
     font-size: ${theme.fonts.sizes.lg};
+    ${mediaFont(theme)};
   `,
 };
 
@@ -26,6 +27,12 @@ const titleCaseFunction = {
     text-transform: ${theme.fonts.cases.capitalize}
   `,
 }
+
+const mediaFont = (theme) => css`
+  @media ${theme.medias.lteMedium}{
+    font-size: ${theme.fonts.sizes.md};
+  }
+`;
 
 export const Title = styled.h1`
   ${

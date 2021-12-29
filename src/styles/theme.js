@@ -22,5 +22,8 @@ export const theme = {
       lowercase: "lowercase",
       capitalize: "capitalize",
     },
+  },
+  medias: {
+    lteMedium: '(max-width: 768px)',
   }
 };
