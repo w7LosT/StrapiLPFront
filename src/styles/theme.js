@@ -23,6 +23,11 @@ export const theme = {
       capitalize: "capitalize",
     },
   },
+  spacings:{
+    sm: "5px",
+    md: "10px",
+    lg: "20px",
+  },
   medias: {
     lteMedium: '(max-width: 768px)',
   }

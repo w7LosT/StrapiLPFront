@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuLink /> should match Snapshot 1`] = `
+<a
+  class="sc-bdvvtL kKmlkC"
+  href="https://www.google.com"
+  role="link"
+  target="_blank"
+>
+  MenuLink
+</a>
+`;
