@@ -41,6 +41,15 @@ export const Title = styled.h1`
       background-color: ${colorDark ? theme.default.lightBG : theme.default.secondaryBG};
       ${titleSize[size](theme)};
       ${titleCaseFunction[titleCase](theme)};
+      min-width: 200px;
+
+      > a img{
+        margin: 0 auto;
+      }
+
+      @media ${theme.medias.lteMedium}{
+        margin: 15px 0;
+      }
     `
   }
 `;
