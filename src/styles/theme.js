@@ -27,6 +27,8 @@ export const theme = {
     sm: "5px",
     md: "10px",
     lg: "20px",
+    xlg: "30px",
+    hg: "40px",
   },
   medias: {
     lteMedium: '(max-width: 768px)',
