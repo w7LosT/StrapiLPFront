@@ -4,12 +4,12 @@ import { SectionBackground } from '.';
 
 describe('<SectionBackground />', () => {
   it('should render with background dark', () => {
-    renderTheme(<SectionBackground background={true}>SectionBackground</SectionBackground>);
-    expect(screen.getByRole('heading')).toMatchSnapshot();
+    const { container } = renderTheme(<SectionBackground background={true}>SectionBackground</SectionBackground>);
+    expect(container).toMatchSnapshot();
   });
 
   it('should render with background light', () => {
-    renderTheme(<SectionBackground>SectionBackground</SectionBackground>);
-    expect(screen.getByRole('heading')).toMatchSnapshot();
+    const {container} = renderTheme(<SectionBackground>SectionBackground</SectionBackground>);
+    expect(container).toMatchSnapshot();
   });
 });

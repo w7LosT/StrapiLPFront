@@ -15,6 +15,7 @@ export const theme = {
       sm: "12px",
       md: "16px",
       lg: "24px",
+      xlg: "30px",
     },
     cases:{
       normal: "none",

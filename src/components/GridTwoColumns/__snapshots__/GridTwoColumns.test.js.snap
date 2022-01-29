@@ -11,11 +11,11 @@ exports[`<GridTwoColumns /> should render 1`] = `
       <div
         class="sc-dkPtRN cKQdCP"
       >
-        <h1
+        <h2
           class="sc-bdvvtL kIeIKU"
         >
           GridTwoColumns
-        </h1>
+        </h2>
         <p
           class="sc-gKclnd jqWrFg"
         >

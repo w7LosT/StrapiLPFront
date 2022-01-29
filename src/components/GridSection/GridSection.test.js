@@ -1,10 +1,11 @@
 import { screen } from "@testing-library/react";
 import { renderTheme } from "../../styles/render-theme";
-import { SectionComponent } from '.';
+import { GridSection } from '.';
+import mock from './mock';
 
-describe('<SectionComponent />', () => {
+describe('<GridSection />', () => {
   it('should render', () => {
-    const {container} = renderTheme(<SectionComponent>SectionComponent</SectionComponent>);
+    const {container} = renderTheme(<GridSection {...mock} />);
     expect(container).toMatchSnapshot();
   });
 });
