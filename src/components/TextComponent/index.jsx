@@ -3,9 +3,7 @@ import * as Styled from './styles';
 
 export const Text = ({children}) => {
   return (
-    <Styled.Text>
-      {children}
-    </Styled.Text>
+    <Styled.Text dangerouslySetInnerHTML={{__html: children}} />
   );
 }
 

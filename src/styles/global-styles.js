@@ -20,4 +20,13 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 62.5%;
     font-family: ${ theme.fonts.families.montserrat };
   }
+
+  p{
+    margin: ${({theme}) => theme.spacings.lg};
+  }
+
+  ul, ol{
+    margin: ${({theme}) => theme.spacings.md};
+    padding: ${({theme}) => theme.spacings.md};
+  }
 `;
