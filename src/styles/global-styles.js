@@ -19,6 +19,7 @@ export const GlobalStyles = createGlobalStyle`
     */
     font-size: 62.5%;
     font-family: ${ theme.fonts.families.montserrat };
+    scroll-behavior: smooth;
   }
 
   p{

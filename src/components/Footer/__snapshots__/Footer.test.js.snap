@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render 1`] = `
+<div>
+  <div
+    class="sc-dkPtRN gwuasE"
+  >
+    <div
+      class="sc-bdvvtL fGinqZ"
+    >
+      <div
+        class="sc-gsDKAQ ismpIO"
+      >
+        <h1>
+          Footer
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+`;

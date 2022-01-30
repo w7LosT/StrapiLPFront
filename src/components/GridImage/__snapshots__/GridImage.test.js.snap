@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridImage /> should render 1`] = `
+<div>
+  <div
+    class="sc-jRQBWg fkdoeC"
+  >
+    <div
+      class="sc-gsDKAQ jPpdoK"
+    >
+      <h1
+        class="sc-bdvvtL kIeIKU"
+      >
+        My Grid
+      </h1>
+      <div
+        class="sc-gKclnd jqWrFg"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+      </div>
+      <div
+        class="sc-dkPtRN vJFzf"
+      >
+        <div
+          class="sc-hKwDye gYTgrh"
+        >
+          <img
+            alt="Teste 1"
+            class="sc-eCImPb cLKJSx"
+            src="https://source.unsplash.com/random/800x800?r=1"
+          />
+        </div>
+        <div
+          class="sc-hKwDye gYTgrh"
+        >
+          <img
+            alt="Teste 2"
+            class="sc-eCImPb cLKJSx"
+            src="https://source.unsplash.com/random/800x800?r=2"
+          />
+        </div>
+        <div
+          class="sc-hKwDye gYTgrh"
+        >
+          <img
+            alt="Teste 3"
+            class="sc-eCImPb cLKJSx"
+            src="https://source.unsplash.com/random/800x800?r=3"
+          />
+        </div>
+        <div
+          class="sc-hKwDye gYTgrh"
+        >
+          <img
+            alt="Teste 4"
+            class="sc-eCImPb cLKJSx"
+            src="https://source.unsplash.com/random/800x800?r=4"
+          />
+        </div>
+        <div
+          class="sc-hKwDye gYTgrh"
+        >
+          <img
+            alt="Teste 5"
+            class="sc-eCImPb cLKJSx"
+            src="https://source.unsplash.com/random/800x800?r=5"
+          />
+        </div>
+        <div
+          class="sc-hKwDye gYTgrh"
+        >
+          <img
+            alt="Teste 6"
+            class="sc-eCImPb cLKJSx"
+            src="https://source.unsplash.com/random/800x800?r=6"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

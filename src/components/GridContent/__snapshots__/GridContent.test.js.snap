@@ -16,7 +16,7 @@ exports[`<GridContent /> should render 1`] = `
       <div
         class="sc-eCImPb kjtqDh"
       >
-        <p
+        <div
           class="sc-dkPtRN loLXeC"
         >
           HTML Ipsum Presents
@@ -110,7 +110,7 @@ exports[`<GridContent /> should render 1`] = `
   
             </code>
           </pre>
-        </p>
+        </div>
       </div>
     </div>
   </div>

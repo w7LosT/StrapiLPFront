@@ -16,11 +16,11 @@ exports[`<GridTwoColumns /> should render 1`] = `
         >
           GridTwoColumns
         </h2>
-        <p
+        <div
           class="sc-gKclnd jqWrFg"
         >
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores veniam ducimus praesentium dolore laborum hic. At, tenetur vitae necessitatibus pariatur corrupti praesentium sit perspiciatis, eveniet repellendus possimus dicta labore consequatur.
-        </p>
+        </div>
       </div>
       <div
         class="sc-hKwDye chNkyf"
