@@ -3,13 +3,13 @@
 exports[`<GridImage /> should render 1`] = `
 <div>
   <div
-    class="sc-jRQBWg fkdoeC"
+    class="sc-jRQBWg bQHPSA"
   >
     <div
       class="sc-gsDKAQ jPpdoK"
     >
       <h1
-        class="sc-bdvvtL kIeIKU"
+        class="sc-bdvvtL vRcui"
       >
         My Grid
       </h1>

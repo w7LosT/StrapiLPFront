@@ -12,27 +12,25 @@ describe('<Heading />', () => {
     renderTheme(<Heading>texto</Heading>);
     const headingContainer = screen.getByRole('heading', {name: "texto"});
     expect(headingContainer).toHaveStyle({
-      "background-color": theme.default.lightBG,
       "color": theme.default.mainColor,
       "font-size": theme.fonts.sizes.lg,
     });
   });
 
   it('should render heading with DarkTheme', () => {
-    renderTheme(<Heading colorDark={false}>texto</Heading>);
+    renderTheme(<Heading colorDark={true}>texto</Heading>);
     const headingContainer = screen.getByRole('heading', {name: "texto"});
     expect(headingContainer).toHaveStyle({
-      "background-color": theme.default.secondaryBG,
       "color": theme.default.colorWhite,
       "font-size": theme.fonts.sizes.lg,
     });
   });
 
   it('should render heading with size big as h3 and DarkTheme', () => {
-    renderTheme(<Heading colorDark={false} as={"h3"} size={"lg"}>texto</Heading>);
+    renderTheme(<Heading colorDark={true} as={"h3"} size={"lg"}>texto</Heading>);
     const headingContainer = screen.getByRole('heading', {name: "texto"});
     expect(headingContainer).toHaveStyle({
-      "background-color": theme.default.secondaryBG,
+      /*"background-color": theme.default.secondaryBG,*/
       "color": theme.default.colorWhite,
       "font-size": theme.fonts.sizes.lg,
     });
@@ -40,7 +38,7 @@ describe('<Heading />', () => {
   });
 
   it('should render heading with size MD as h1 and DarkTheme for media medium', () => {
-    renderTheme(<Heading colorDark={false} as={"h1"}>texto</Heading>);
+    renderTheme(<Heading colorDark={true} as={"h1"}>texto</Heading>);
     const headingContainer = screen.getByRole('heading', {name: "texto"});
 
     expect(headingContainer).toHaveStyle({

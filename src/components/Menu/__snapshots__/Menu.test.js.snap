@@ -1,6 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Menu /> should not render links 1`] = `
+.c6 {
+  color: #0a1128;
+  font-size: 16px;
+  text-transform: uppercase;
+  min-width: 200px;
+}
+
+.c6 > a img {
+  margin: 0 auto;
+}
+
 .c4 {
   max-width: 1200px;
   margin: 0 auto;
@@ -110,22 +121,16 @@ exports[`<Menu /> should not render links 1`] = `
   max-height: 3rem;
 }
 
-.c6 {
-  color: #0a1128;
-  background-color: #fcfcfc;
-  font-size: 16px;
-  text-transform: uppercase;
-  min-width: 200px;
-}
-
-.c6 > a img {
-  margin: 0 auto;
-}
-
 .c1 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
+}
+
+@media (max-width:768px) {
+  .c6 {
+    margin: 15px 0;
+  }
 }
 
 @media (max-width:768px) {
@@ -176,12 +181,6 @@ exports[`<Menu /> should not render links 1`] = `
     -webkit-flex-flow: column nowrap;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
-  }
-}
-
-@media (max-width:768px) {
-  .c6 {
-    margin: 15px 0;
   }
 }
 
@@ -241,6 +240,17 @@ exports[`<Menu /> should not render links 1`] = `
 `;
 
 exports[`<Menu /> should render Logo and NavLinks 1`] = `
+.c6 {
+  color: #0a1128;
+  font-size: 16px;
+  text-transform: uppercase;
+  min-width: 200px;
+}
+
+.c6 > a img {
+  margin: 0 auto;
+}
+
 .c4 {
   max-width: 1200px;
   margin: 0 auto;
@@ -380,22 +390,16 @@ exports[`<Menu /> should render Logo and NavLinks 1`] = `
   max-height: 3rem;
 }
 
-.c6 {
-  color: #0a1128;
-  background-color: #fcfcfc;
-  font-size: 16px;
-  text-transform: uppercase;
-  min-width: 200px;
-}
-
-.c6 > a img {
-  margin: 0 auto;
-}
-
 .c1 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
+}
+
+@media (max-width:768px) {
+  .c6 {
+    margin: 15px 0;
+  }
 }
 
 @media (max-width:768px) {
@@ -446,12 +450,6 @@ exports[`<Menu /> should render Logo and NavLinks 1`] = `
     -webkit-flex-flow: column nowrap;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
-  }
-}
-
-@media (max-width:768px) {
-  .c6 {
-    margin: 15px 0;
   }
 }
 

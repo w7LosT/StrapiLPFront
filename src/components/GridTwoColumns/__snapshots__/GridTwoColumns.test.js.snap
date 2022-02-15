@@ -3,7 +3,7 @@
 exports[`<GridTwoColumns /> should render 1`] = `
 <div>
   <div
-    class="sc-jRQBWg fkdoeC"
+    class="sc-jRQBWg bQHPSA"
   >
     <div
       class="sc-gsDKAQ iUXaVc"
@@ -12,7 +12,7 @@ exports[`<GridTwoColumns /> should render 1`] = `
         class="sc-dkPtRN cKQdCP"
       >
         <h2
-          class="sc-bdvvtL kIeIKU"
+          class="sc-bdvvtL vRcui"
         >
           GridTwoColumns
         </h2>

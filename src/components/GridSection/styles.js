@@ -2,7 +2,10 @@ import styled, { css } from "styled-components";
 import { Title as  HeadingContainer } from '../Heading/styles';
 
 export const Container = styled.div`
-  ${({ theme }) => css``}
+  ${({ theme }) => css`
+    max-width: 1140px;
+    margin: 0 auto;
+  `}
 `;
 
 export const Grid = styled.div`
@@ -19,7 +22,8 @@ export const GridElement = styled.div`
   ${({ theme }) => css`
     ${HeadingContainer}{
       position: relative;
-      left: 55px ;
+      left: 35px ;
+      margin-bottom: 10px;
     }
 
     ${HeadingContainer}::before{

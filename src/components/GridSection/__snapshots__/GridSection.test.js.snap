@@ -3,13 +3,13 @@
 exports[`<GridSection /> should render 1`] = `
 <div>
   <div
-    class="sc-eCImPb ehwvyx"
+    class="sc-eCImPb gkeWtv"
   >
     <div
-      class="sc-gsDKAQ iEGTJj"
+      class="sc-gsDKAQ kHDVIv"
     >
       <h1
-        class="sc-bdvvtL kIeIKU"
+        class="sc-bdvvtL vRcui"
       >
         My Grid
       </h1>
@@ -22,10 +22,10 @@ exports[`<GridSection /> should render 1`] = `
         class="sc-dkPtRN SlwUx"
       >
         <div
-          class="sc-hKwDye grytWb"
+          class="sc-hKwDye fDTdHf"
         >
           <h3
-            class="sc-bdvvtL igdjSW"
+            class="sc-bdvvtL clEbTI"
           >
             Teste 1
           </h3>
@@ -36,10 +36,10 @@ exports[`<GridSection /> should render 1`] = `
           </div>
         </div>
         <div
-          class="sc-hKwDye grytWb"
+          class="sc-hKwDye fDTdHf"
         >
           <h3
-            class="sc-bdvvtL igdjSW"
+            class="sc-bdvvtL clEbTI"
           >
             Teste 2
           </h3>
@@ -50,10 +50,10 @@ exports[`<GridSection /> should render 1`] = `
           </div>
         </div>
         <div
-          class="sc-hKwDye grytWb"
+          class="sc-hKwDye fDTdHf"
         >
           <h3
-            class="sc-bdvvtL igdjSW"
+            class="sc-bdvvtL clEbTI"
           >
             Teste 3
           </h3>

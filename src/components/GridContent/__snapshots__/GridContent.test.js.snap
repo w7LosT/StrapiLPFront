@@ -3,13 +3,13 @@
 exports[`<GridContent /> should render 1`] = `
 <div>
   <div
-    class="sc-bdvvtL gFuMZn"
+    class="sc-bdvvtL PalQh"
   >
     <div
       class="sc-hKwDye goCENT"
     >
       <h1
-        class="sc-gsDKAQ bipxZl"
+        class="sc-gsDKAQ kBeUsj"
       >
         Título
       </h1>

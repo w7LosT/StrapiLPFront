@@ -6,9 +6,9 @@ import { Text } from '../TextComponent';
 
 export const GridSection = ({title, description, grid, background = false}) => {
   return (
-    <SectionBackground background={background} as='h2'>
+    <SectionBackground background={background}>
       <Styled.Container>
-        <Heading titleCase='uppercase'>
+        <Heading titleCase='uppercase' colorDark={background}>
           {title}
         </Heading>
         <Text>

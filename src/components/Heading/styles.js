@@ -37,8 +37,8 @@ const mediaFont = (theme) => css`
 export const Title = styled.h1`
   ${
     ({ theme, colorDark, size, titleCase }) => css `
-      color: ${ colorDark ? theme.default.mainColor : theme.default.colorWhite };
-      background-color: ${colorDark ? theme.default.lightBG : theme.default.secondaryBG};
+      color: ${ colorDark ? theme.default.colorWhite : theme.default.mainColor };
+      /*background-color: ${colorDark ? theme.default.secondaryBG : theme.default.secondaryBG};*/
       ${titleSize[size](theme)};
       ${titleCaseFunction[titleCase](theme)};
       min-width: 200px;

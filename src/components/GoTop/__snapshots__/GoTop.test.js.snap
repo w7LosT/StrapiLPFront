@@ -4,7 +4,7 @@ exports[`<GoTop /> should render 1`] = `
 <div>
   <a
     aria-label="Go to top"
-    class="sc-bdvvtL xrmqA"
+    class="sc-bdvvtL eQrjlE"
     href="#"
     title="Go to top"
   >

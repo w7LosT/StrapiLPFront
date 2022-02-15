@@ -3,7 +3,7 @@
 exports[`<SectionBackground /> should render with background dark 1`] = `
 <div>
   <div
-    class="sc-bdvvtL jXrWWT"
+    class="sc-bdvvtL fAvYPN"
   >
     SectionBackground
   </div>
@@ -13,7 +13,7 @@ exports[`<SectionBackground /> should render with background dark 1`] = `
 exports[`<SectionBackground /> should render with background light 1`] = `
 <div>
   <div
-    class="sc-bdvvtL gFuMZn"
+    class="sc-bdvvtL PalQh"
   >
     SectionBackground
   </div>
