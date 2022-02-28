@@ -4,10 +4,10 @@ export default {
   title: 'Footer',
   component: Footer,
   args: {
-    html: 'Footer',
+    footerHtml: 'Footer',
   },
   argTypes: {
-    html: { type: 'string', },
+    footerHtml: { type: 'string', },
   },
 }
 
