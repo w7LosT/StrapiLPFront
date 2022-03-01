@@ -17,6 +17,38 @@
         "menu": {
           "id": 2,
           "logo_text": "LOGO",
+          "menu_link": [
+            {
+              "id": 5,
+              "link_text": "INTRO",
+              "url": "#intro"
+            },
+            {
+              "id": 6,
+              "link_text": "GRID ONE",
+              "url": "#grid-one"
+            },
+            {
+              "id": 7,
+              "link_text": "GALLERY",
+              "url": "#gallery"
+            },
+            {
+              "id": 8,
+              "link_text": "GRID TWO",
+              "url": "#grid-two"
+            },
+            {
+              "id": 9,
+              "link_text": "PRINCING",
+              "url": "#pricing"
+            },
+            {
+              "id": 10,
+              "link_text": "CONTACT",
+              "url": "#contact"
+            }
+          ],
           "logo": {
             "data": null
           }
