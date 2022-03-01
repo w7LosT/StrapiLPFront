@@ -1,4 +1,4 @@
-import { mapData, mapMenuLinks } from './map.menu';
+import { mapData, mapMenuLinks } from './map-menu';
 
 describe("map-data", () => {
   it("should return a predef menu if there is no data", () => {
