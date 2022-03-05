@@ -8,4 +8,10 @@ describe('<GridContent />', () => {
     const {container} = renderTheme(<GridContent {...mock} />);
     expect(container).toMatchSnapshot();
   });
+
+  it('should render background true', () => {
+    delete mock.background;
+    const {container} = renderTheme(<GridContent {...mock} />);
+    expect(container).toMatchSnapshot();
+  });
 });
