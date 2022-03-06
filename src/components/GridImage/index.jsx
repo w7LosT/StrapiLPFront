@@ -16,8 +16,8 @@ export const GridImage = ({title, description, grid, background = false}) => {
         </Text>
         <Styled.Grid>
           {grid.map(element => (
-            <Styled.GridElement key={element.srcImg}>
-              <Styled.Image src={element.srcImg} alt={element.altText} />
+            <Styled.GridElement key={`${element.srcImg}-${element.id}`}>
+              <Styled.Image src={`http://localhost:1337${element.srcImg}`} alt={element.altText} />
             </Styled.GridElement>
           ))}
         </Styled.Grid>

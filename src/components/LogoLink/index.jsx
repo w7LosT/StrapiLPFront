@@ -8,7 +8,7 @@ export const LogoLink = ({text, image = '', link}) => {
     <Heading size='md' titleCase='uppercase'>
       <Styled.Container href={link}>
         { !!image && (
-          <img src={image} alt={text} />
+          <img src={`http://localhost:1337${image}`} alt={text} />
         )}
         { !image && <span>{text}</span>}
       </Styled.Container>
