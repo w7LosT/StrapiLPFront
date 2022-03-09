@@ -53,7 +53,7 @@ function App() {
   });
   const link = 'http://localhost:3000/';
 
-  console.log(menu)
+  // console.log(menu)
 
   return <Base links={links} footerHtml={footerHtml} logoData={{ text, image, link }}>
     {
@@ -61,6 +61,7 @@ function App() {
         const { __component: component } = section;
         const key = `${slug}-${index}`;
         section.background = section.metadata.has_background;
+        section.sectionId = section.metadata.section_id;
         console.log(section);
         if(component === 'section.section-twocolumns'){
           section.text = section.description;
