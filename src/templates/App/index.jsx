@@ -24,7 +24,8 @@ function App() {
         const processedData = [json.data[0].attributes];
         const pageData = mapData(processedData);
         setData(pageData[0]);
-        console.log(pageData[0]);
+        // console.log(pageData[0]);
+        document.title = 'Landing Page';
 
       } catch (e){
         setData(undefined);
